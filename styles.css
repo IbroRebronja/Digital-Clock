@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.clock {
+    font-size: 5rem;
+    color: #fff;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.date, #countdown {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#countdown {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+body.light {
+    background-color: #f0f8ff;
+    color: black;
+}
+
+body.light .date, body.light #countdown {
+    color: black;
+}
+
+body.dark {
+    background-color: #282c34;
+    color: white;
+}
+
+body.dark .date, body.dark #countdown {
+    color: white;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+}
