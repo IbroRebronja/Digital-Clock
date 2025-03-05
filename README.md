@@ -25,18 +25,6 @@ This is a simple digital clock web application that features:
 - `alarm.js`: JavaScript for alarm-related functions (setting alarm, playing sound, and stopping it).
 - `sounds/alarmsound.mp3`: Alarm sound file.
 
-## Usage
-
-1. Clone the repository or download the files.
-2. Open `index.html` in your browser to start the application.
-3. Set your preferred theme (light or dark).
-4. Set an alarm time and a countdown target.
-5. The alarm will trigger and play sound when it's time.
-
-## Installation
-
-No installation required. Simply open the `index.html` file in a web browser.
-
 ## License
 
 This project is licensed under the MIT License.
